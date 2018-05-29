@@ -11,6 +11,13 @@ jQuery(function($, undefined) {
     		for (var command in mans)
     			this.echo('[[ugb;;]' + command + ']' + ' - ' + mans[command]);
     	},
+        blog: function() {
+            this.echo("opening blog")
+            setTimeout(function(){
+                    window.open(blogUrl,'_blank');
+                }, 1000);
+
+        },
     	pgpkey: function() {
     		this.echo("-----BEGIN PGP PUBLIC KEY BLOCK-----");
     		this.echo(pgpkey);
