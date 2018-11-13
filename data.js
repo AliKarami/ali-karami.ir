@@ -37,11 +37,16 @@ var social = {
 };
 var skills = {
 	'Main Skill': ['NodeJS','Software Architecture'],
-	'Skilled': ['Javascript','Java', 'ELK Stack','WebRTC','Redis & in-memory DBs'],
-	'Familiar': ['C','C++','Python','SQL','RabbitMQ','WebSockets','CMSs'],
-	'Knowledge': ['Database Management','Maps and Geospatial Tools','Linux','Cryptocurrencies','Design Basics']
+	'Skilled': ['Golang', 'Javascript','Java','Openshift', 'ELK Stack','WebRTC','Redis & in-memory DBs'],
+	'Familiar': ['C++','Python','SQL','RabbitMQ','CMSs'],
+	'Knowledge': ['Maps and Geospatial Tools','Linux','Cryptocurrencies']
 };
 var education = {
+	Master: {
+		institution: 'University of Tehran',
+		period: '2018-2020',
+		location: 'Tehran'
+	},
 	Bachelor: {
 		institution: 'University of Tehran',
 		period: '2012-2018',
@@ -62,7 +67,12 @@ var employment = [{
 	position: 'Map Team Leader',
 	site: 'Snapp',
 	location: 'Tehran',
-	period: '2017-Pres'
+	period: '2018-Pres'
+},{
+	position: 'Software Engineer',
+	site: 'Snapp',
+	location: 'Tehran',
+	period: '2017-2018'
 },{
 	position: 'Software Engineer',
 	site: 'WING (Word of Innovative Geniuses)',
@@ -95,10 +105,8 @@ var languages = [{
 var interests = ['Blockchain and Distributed Systems',
 	'Data Analysis',
 	'Voice Assistants',
-	'Machine Learning',
-	'Semantic Web',
 	'Politics and Society',
 	'Theaters, Movies, Series',
-	'Football'];
+	'Video Games'];
 	var aboutMe = "Geek? Eager to Learn?";
 var githubUrl = 'https://github.com/AliKarami';
